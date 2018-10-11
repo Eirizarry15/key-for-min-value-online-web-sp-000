@@ -3,5 +3,5 @@
 
 def key_for_min_value(name_hash)
 patriots = {"Tom Brady" => 12, "Julian Edelman" => 11, "Gronk" => 87}
-patriots.collect do|jersey| 
+patriots.sort  
 end
